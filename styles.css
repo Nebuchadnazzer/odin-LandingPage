@@ -1,0 +1,43 @@
+header {
+    background-color: #1F2937;
+    color: white;
+    font-size: 18px;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+div.neck1 {
+   font-size: 48px; 
+}
+
+section {
+    background-color: white;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+div.body1 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bolder;
+}
+
+article {
+    background-color: #E5E7EB;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: light italic;
+    color: #1F2937;
+}
+
+div.legs {
+    background-color: #3882F6;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif 
+}
+
+footer {
+    background-color: #1F2937;
+    color: white;
+    font-size: 18px;
+    font-family:Arial, Helvetica, sans-serif;
+    flex:auto
+}
+
