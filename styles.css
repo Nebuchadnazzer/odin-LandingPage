@@ -57,17 +57,33 @@ ul {
 }
 
 .section1 {
-    background-color: white;
     color: #1F2937;
-    display: flex;
-    align-items: center;
-
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+    padding: 50px;
 }
 
-.section1-header {
-    font-size: 36px;
+.section1-container {
     color: #1F2937;
-    font-weight: bolder;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+}
+
+.section1-info {
+    max-width: 150px;
+}
+
+.section1-box {
+    width: 150px;
+    height: 150px;
+    border: solid #3882F6;
+}
+
+.section1-text {
+    margin-top: 10px;
 }
 
 .section2 {
