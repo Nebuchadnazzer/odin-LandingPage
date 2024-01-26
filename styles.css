@@ -48,7 +48,7 @@ ul {
     margin-left: 100px;
     padding-right: 15px;
     margin-bottom: 150px;
-    margin-top: 150px;
+    margin-top: 100px;
     max-width: 400px;
 }
 
@@ -73,7 +73,7 @@ ul {
 
 .header-section-column2 {
     margin-bottom: 150px;
-    margin-top: 150px;
+    margin-top: 100px;
 }
 
 .img-container {
@@ -145,12 +145,24 @@ ul {
 .section3 {
     background-color: #3882F6;
     color: white;
-    
     display: flex;
     align-items: center;
-    justify-content: center;
-    padding: 20px;
-    margin: 20px;
+    justify-content: space-between;
+    padding: 30px;
+    margin: 100px;
+    flex-direction: row;
+}
+
+.section3-column1 {
+    margin-left: 50px;
+}
+
+.section3-column2 {
+    margin-right: 50px;
+}
+
+.section3-header {
+    font-weight: bold;
 }
 
 .sign-up-button2 {
@@ -171,7 +183,7 @@ ul {
     align-items: end;
     justify-content: center;
 
-    position: fixed;
+    /* position: fixed; */
     bottom: 0;
     left: 0;
     width: 100%;
