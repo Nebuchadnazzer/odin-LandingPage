@@ -110,6 +110,7 @@ ul {
     width: 150px;
     height: 150px;
     border: solid #3882F6;
+    border-radius: 10px;
 }
 
 .section1-text {
@@ -146,11 +147,14 @@ ul {
     background-color: #3882F6;
     color: white;
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: space-between;
     padding: 30px;
     margin: 100px;
-    flex-direction: row;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 10px;
 }
 
 .section3-column1 {
