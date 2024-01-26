@@ -10,17 +10,17 @@ body {
     /* Separete logo and links */
     display: flex;
     justify-content: space-between;
-    padding: 8px;
+    padding: 15px;
 }
 
 .header-logo {
+    margin-left: 100px;
     font-size: 24px;
 }
 
-/* .header-links {
-    color: #E5E7EB;
-} */
-/* This was doing nothing */
+.header-links {
+    margin-right: 100px;
+}
 
 a {
     text-decoration: none;
@@ -41,11 +41,25 @@ ul {
     color: white;
     font-size: 18px;
     display: flex;
-    align-items: center;
+    justify-content: center;
+}
+
+.header-section-column1 {
+    margin-left: 100px;
+    padding-right: 15px;
+    margin-bottom: 150px;
+    margin-top: 150px;
+    max-width: 400px;
 }
 
 .header-section-head {
    font-size: 48px; 
+}
+
+.header-section-sub {
+    margin-bottom: 10px;
+    color: #E5E7EB;
+
 }
 
 .sign-up-button1 {
@@ -54,6 +68,21 @@ ul {
     border-radius: 5px;
     border: 0;
     padding: 5px;
+    width: 100px;
+}
+
+.header-section-column2 {
+    margin-bottom: 150px;
+    margin-top: 150px;
+}
+
+.img-container {
+    text-align: center;
+    background-color: grey;
+    width: 400px;
+    height: 200px;
+    margin-right: 100px;
+    line-height: 200px;
 }
 
 .section1 {
@@ -129,6 +158,7 @@ ul {
     border-radius: 5px;
     border-color: #E5E7EB;
     padding: 5px;
+    width: 100px;
 }
 
 .footer {
